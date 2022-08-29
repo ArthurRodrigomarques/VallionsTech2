@@ -8,8 +8,8 @@
 
 .conteiner {
     display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: auto 70vh 40vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto 20vh;
     grid-template-areas: "header header"
                          "main main"
                          "footer footer";
@@ -23,6 +23,13 @@ grid-area: header;
 main {
 background: rgb(114, 87, 87);
 grid-area: main;
+
+background-image:url(./imagens/pexels-phil-desforges-3335697.jpg);
+background-repeat:no-repeat;
+background-color: transparent;
+background-position: center center;
+background-size:cover;
+
 }
 
 footer {
@@ -64,6 +71,7 @@ background-color:white;
 
             /*atendimentos e minha conta */
 .atend {
+    
    margin: 0px;
 }
 .atend li{
@@ -81,13 +89,17 @@ background-color:white;
     color:rgb(255, 0, 0);
     background-color: white;
 }
+.tudo {
+    position: fixed;
+}
 
-/* logo e botão é isso*/
-section {
+            /* logo e botão é isso*/
+section.logo {
     width: 99vw;
     height: 60px;
     background-color: rgb(31, 31, 31);
 }
+
 .logo img {
     width: 80px;
     padding-top: 10px;
@@ -121,13 +133,17 @@ section {
 
                 /*Menu*/
 #Menu {
+    margin-top: 6px;
     list-style: none;
+    
     
 }
 #Menu ul {
     text-align: center;
+    background-color: rgba(58, 57, 57, 0.692);
 }
 #Menu li {
+    color: white;
     margin: 0px;
     display: inline-block;
     padding:16px 40px;
@@ -139,12 +155,82 @@ section {
     background-color:  #daa520;
     text-decoration: underline;  
 }
-        
+             /*main */
+
 .imagem{
+    margin-top: 90px;
     width: 99vw;
-    height: 60%;
+    height: 50vh;
 }
-h1 {
+.FACA {
+    color: white;
+    box-shadow: 1px 3px 10px white;
     margin-top: 20px;
     text-align: center;
+    font-size: 45px;
+}  
+
+            /*produtos*/
+
+.flex {
+    margin-top: 60px;
+    margin-left: 11vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    background-color: white;
+    width: 78vw;
+    height: auto;
+    margin-bottom: 80px;
+   
+    
+}
+.flex img {
+    
+    width:100%;
+    
+}
+.produtos2 {
+   width: 250px;
+   padding: 10px;
+   margin:40px 10px 30px 10px;
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color: white;
+   transition: 1s;
+}
+.produtos2:hover {
+    background-color: rgba(99, 98, 98, 0.432);
+}
+.produtos2 p {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+}
+.produtos2 h2 {
+    text-align:left;
+    margin-top:10px ;
+    font-size: 30px;
+    color: green;
+}
+
+.botao {
+    
+	background-color:#2a2e2b;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+    margin: 10px 10px 0px 10px;
+	padding:15px 80px;
+	text-decoration:none;
+}
+.botao:hover {
+	background-color:#0a0a0a;
+}
+.botao:active {
+	position:relative;
+	top:1px;
 }
