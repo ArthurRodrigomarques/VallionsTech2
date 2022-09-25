@@ -16,7 +16,6 @@
 }
 
 header {
-
 grid-area: header;
 }
 
@@ -24,7 +23,7 @@ main {
 background: rgb(114, 87, 87);
 grid-area: main;
 
-background-image:url(./imagens/pexels-phil-desforges-3335697.jpg);
+background-image:url(../imagens/pexels-phil-desforges-3335697.jpg);
 background-repeat:no-repeat;
 background-color: transparent;
 background-position: center center;
@@ -159,7 +158,7 @@ a:link {
     list-style: none;
 }
 #Menu li:hover {
-    background-color:  #daa520;
+    background-color:  #63636342;
     text-decoration: underline;  
 }
              /*main */
@@ -289,6 +288,7 @@ width: 30px;
     background-color: gray;
 
 }
-#contatofooter {
 
+.img21{
+    display: none;
 }
