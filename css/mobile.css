@@ -81,4 +81,10 @@ div.contato{
     text-align: center;
     margin-top: -60px;
 }
+.f2 {
+    display: none;
+}
+.f1 {
+    text-align: center;
+}
 }
