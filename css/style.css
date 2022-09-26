@@ -70,7 +70,6 @@ background-color:white;
 
             /*atendimentos e minha conta */
 .atend {
-    
    margin: 0px;
 }
 .atend li{
@@ -128,6 +127,10 @@ section.logo {
     color: white;
     background-color: #252525;
 }
+.buscar {
+    display: none;
+}
+
 #mee1 {
     display: none;
 }

@@ -2,9 +2,12 @@
 
 @media (max-width:970px) {
 
-
-.redes  {
-     display: flex;
+.atend {
+    display: flex;
+    justify-content: space-between;
+}
+.redes2  {
+     display: none;
      flex-wrap: wrap;
 }
 
@@ -41,16 +44,16 @@ section.logo {
 }
 
 #mee {
-    display: inline-block;
+    
     width: 38px;
-    margin-top: 20px;
-    margin-left: 85vw;
+    
     cursor: pointer;
 }
 
-.buscar {
+.busca {
+
     display: a;
-    display:inline-block;
+    display:none;
     margin-top: 20vh;
 }
 
@@ -86,5 +89,22 @@ div.contato{
 }
 .f1 {
     text-align: center;
+}
+.buscar {
+    display: flex;
+    flex-wrap: nowrap;
+}
+#butao2 {
+    width: 40%;
+   padding: 2vh 20vw 2vh 20vw;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    
+}
+.pesquisar {
+    
+    cursor: pointer;
+    padding: 1.99vh 1vw;
+    margin: 0px 0px 0px -2px;
 }
 }
