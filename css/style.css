@@ -95,14 +95,14 @@ background-color:white;
             /* logo e botão é isso*/
 section.logo {
     width: 99vw;
-    height: 60px;
+    height: 7vh;
     background-color: rgb(31, 31, 31);
 }
 
-.logo img {
+.logo .lg {
     width: 80px;
     padding-top: 10px;
-    padding-left: 170px;
+    padding-left: 15vw;
     border-radius: 10px 10px 10px 10px;
 }
 .busca{
@@ -112,7 +112,6 @@ section.logo {
 #campo_busca{
     width: 40vw;
     height: 40px;
-    
     border-radius: 5px 0px 0px 5px; 
     color:#252525;
 }
@@ -128,6 +127,9 @@ section.logo {
     cursor: pointer;
     color: white;
     background-color: #252525;
+}
+#mee1 {
+    display: none;
 }
 
                 /*Menu*/

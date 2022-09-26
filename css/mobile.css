@@ -2,6 +2,12 @@
 
 @media (max-width:970px) {
 
+
+.redes  {
+     display: flex;
+     flex-wrap: wrap;
+}
+
 .imagem {
     display: none;
 }
@@ -13,5 +19,66 @@
 }
 #Menu ul, li {
     display: none;
+}
+
+section.logo {
+    background-color: white;
+}
+
+.lg {
+    display: none;
+}
+#mee1 li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: black;
+}
+#mee1 {
+    margin: 0px 0px 0px 60vw;
+   background-color: black;
+}
+
+#mee {
+    display: inline-block;
+    width: 38px;
+    margin-top: 20px;
+    margin-left: 85vw;
+    cursor: pointer;
+}
+
+.buscar {
+    display: a;
+    display:inline-block;
+    margin-top: 20vh;
+}
+
+.busca{
+   text-align: center;
+    margin-top:-49px;  
+
+}
+.active{
+    display: block !important;
+}
+
+div.contato{
+    display: inline;
+    flex-wrap: wrap;
+}
+.contato2{
+    display: block;
+    margin-left: 30px;
+}
+
+.direitos {
+    display:block;
+    text-align: center;
+}
+
+.contato ul {
+    text-align: center;
+    margin-top: -60px;
 }
 }

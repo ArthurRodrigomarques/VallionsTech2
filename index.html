@@ -13,7 +13,7 @@
 <div class="conteiner">
     <header>
         <div class="tudo">
-        <div cla#
+        <div class="redes">
             <ul class="redes2">
                 <li class="face"><img src="./imagens/facebook.png"></li>
                 <li class="insta"><img src="./imagens/instagram.png"></li>
@@ -30,16 +30,19 @@
         </div>
         
     
-    <section class="logo">
-        <img src="./imagens/pichau.png" alt="logo">
-       
+        <section class="logo">
+        <img class="lg" src="./imagens/pichau.png" alt="logo">
+        <img onclick="displayAbout()" id="mee" src="./imagens/menu.png" alt="logo">
+
 
             <div class="busca">
               <input type="text" id="campo_busca" placeholder="O que você procura?">
               <button type="submit" onclick="" class="buscar_produto">Buscar</button> 
+              
             </div>
+            
             <div id="Menu">
-                <ul>
+                <ul id="mee1">  
                     <li><a class="hre" href="#">Vallions Tech</a> </li>
                     <li><a class="hre" href="#">produtos</a></li>
                     <li><a class="hre" href="#">computadores</a></li>
@@ -49,7 +52,6 @@
                 </ul>
             </div> 
         </div>
-        
     </section>
     </header>
 
@@ -138,7 +140,7 @@
             <p>vallionstech@gmail.com</p>
             </div>
             
-         <h4> Todos os direitos são reservados &copy; </h4>
+         <h4 class="direitos"> Todos os direitos são reservados &copy; </h4>
 
           <ul>
             <li><a class="imgcontato1" href="mailto:arthur05052004@gmail.com"> <img  id="contatofooter" src="./imagens/twitter.png"> </a></li>
@@ -150,6 +152,8 @@
 
     </footer>
 </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
 
